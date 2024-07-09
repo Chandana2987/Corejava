@@ -1,35 +1,44 @@
 package com.tnsif.constructor;
-
 public class Customer {
-
-	private String name ;
-	private int id;
-	private String add;
+	private String cname;
+	private int cid;
+	private String caddress;
+	
+	// default constructor
 	public Customer() {
-		super();
-		// TODO Auto-generated constructor stub
+		
 	}
-	public String getName() {
-		return name;
+	public Customer(String cname, int cid, String caddress) {
+	
+		this.cname = cname;
+		this.cid = cid;
+		this.caddress = caddress;
 	}
-	public void setName(String name) {
-		this.name = name;
+	
+	// getter and setter 
+	
+	public String getCname() {
+		return cname;
 	}
-	public int getId() {
-		return id;
+	public void setCname(String cname) {
+		this.cname = cname;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public int getCid() {
+		return cid;
 	}
-	public String getAdd() {
-		return add;
+	public void setCid(int cid) {
+		this.cid = cid;
 	}
-	public void setAdd(String add) {
-		this.add = add;
+	public String getCaddress() {
+		return caddress;
+	}
+	public void setCaddress(String caddress) {
+		this.caddress = caddress;
 	}
 	@Override
 	public String toString() {
-		return "Customer [name=" + name + ", id=" + id + ", add=" + add + "]";
+		return "Customer [cname=" + cname + ", cid=" + cid + ", caddress=" + caddress + "]";
 	}
-  	
+	
+
 }
