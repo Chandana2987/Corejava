@@ -15,7 +15,6 @@ public Student(int rolllno, String collegename) {
 public Student(String name, long adhaarno, String address, int phoneno) {
 	super(name, adhaarno, address, phoneno);
 	
-	// TODO Auto-generated constructor stub
 }
 
 public int getRolllno() {

@@ -8,3 +8,4 @@ public class Demo extends Finaldemo{
 	    	System.out.println("welcome");
 
 }
+}
